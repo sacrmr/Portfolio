@@ -100,15 +100,42 @@ h2 {
 .hammer-icon {
   padding: 10px;
 }
+.project-img {
+  background: white;
+  border: 1px solid white;
+  border-radius: 30px;
+  display: block;
+}
 
-.container-projects .col {
+.project-description {
+  background: #7794d4;
+
+  color: var(--font-color);
+  padding: 80px 0px;
+}
+
+h2 .project-description {
+  font-size: 64px;
+}
+
+p {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.container-projects {
+  background: #7794d4;
+  margin: 20px;
+}
+
+.btn-project {
   background: var(--branding-color);
   border: 1px solid var(--branding-color);
-  border-radius: 4px;
-  box-shadow: 10px 10px 40px rgba(4, 54, 146, 0.3);
-  margin: 20px;
-  max-width: 50%;
-  padding: 20px;
+  border-radius: 10px;
+  color: var(--font-color);
+  font-family: var(--default-font-family);
+
+  padding: 15px 30px 15px 30px;
 }
 
 .contact {
@@ -154,4 +181,14 @@ footer a {
   font-size: 12px;
   padding-bottom: 10px;
   padding-top: 15px;
+}
+@media (max-width: 960px) {
+  .hero h1 {
+    font-size: 60px;
+  }
+  .project-description {
+    padding: 0;
+    margin: 0;
+    text-align: center;
+  }
 }
