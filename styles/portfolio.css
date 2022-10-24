@@ -134,7 +134,6 @@ p {
   border-radius: 10px;
   color: var(--font-color);
   font-family: var(--default-font-family);
-
   padding: 15px 30px 15px 30px;
 }
 
@@ -145,6 +144,11 @@ p {
 .contact p {
   font-family: var(--default-font-family);
   padding: 20px;
+}
+
+.portrait-img {
+  width: 150px;
+  border-radius: 100%;
 }
 
 .resume-btn {
