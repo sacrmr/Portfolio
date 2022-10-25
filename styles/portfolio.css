@@ -28,6 +28,10 @@ body {
   padding-right: 10px;
   text-align: right;
 }
+.navbar-toggler {
+  border: none;
+  color: transparent;
+}
 
 .tree-icon {
   color: var(--branding-color);
