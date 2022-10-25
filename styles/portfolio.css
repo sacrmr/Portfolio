@@ -39,6 +39,9 @@ h1,
 h2 {
   font-family: var(--heading-font-family);
 }
+h2 {
+  font-size: 65px;
+}
 
 .hero {
   background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
@@ -74,7 +77,7 @@ h2 {
 
 .curvedpage1 h2 {
   margin: 0;
-  padding-bottom: 30px;
+  padding-bottom: 50px;
 }
 
 .skills {
@@ -83,7 +86,7 @@ h2 {
 }
 
 .skills h2 {
-  padding-bottom: 20px;
+  padding-bottom: 30px;
 }
 
 .skills-list {
@@ -93,29 +96,33 @@ h2 {
   padding: 15px;
 }
 
-.computer-icon {
+.skills-icon {
+  font-size: 40px;
   padding: 10px;
 }
 
-.hammer-icon {
+.skills-img {
   padding: 10px;
 }
+
 .project-img {
   border-radius: 60px;
   display: block;
-  border: 5px solid white;
-  width: 80px;
+  height: 445px;
+  width: 666px;
 }
 
 .project-description {
   background: #7794d4;
-
   color: var(--font-color);
   padding: 80px 0px;
 }
 
-h2 .project-description {
-  font-size: 64px;
+.project-description h3 {
+  font-family: var(--heading-font-family);
+  font-size: 45px;
+  padding-bottom: 20px;
+  margin: 24px;
 }
 
 p {
@@ -135,6 +142,7 @@ p {
   color: var(--font-color);
   font-family: var(--default-font-family);
   padding: 15px 30px 15px 30px;
+  margin-top: 30px;
 }
 
 .contact {
@@ -147,7 +155,7 @@ p {
 }
 
 .portrait-img {
-  width: 150px;
+  width: 250px;
   border-radius: 100%;
   padding: 30px;
 }
@@ -192,7 +200,7 @@ footer a {
     font-size: 60px;
   }
   .project-description {
-    padding: 0;
+    padding: 0px 20px 0px 20px;
     margin: 0;
     text-align: center;
   }
