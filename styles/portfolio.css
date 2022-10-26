@@ -210,6 +210,16 @@ footer .social-link:hover {
   padding-bottom: 10px;
   padding-top: 15px;
 }
+.git-link {
+  text-decoration: none;
+  padding: 0px;
+  margin: 0px;
+}
+
+.git-link:hover {
+  color: #7794d4;
+}
+
 @media (max-width: 960px) {
   .hero h1 {
     font-size: 60px;
