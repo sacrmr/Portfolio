@@ -201,7 +201,7 @@ footer a {
 
 footer .social-link:hover {
   color: var(--branding-color);
-  background: white;
+  background: #7794d4;
 }
 
 .signature {
