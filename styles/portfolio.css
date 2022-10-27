@@ -20,7 +20,7 @@ body {
 .navbar {
   background-color: white;
   font-family: var(--default-font-family);
-  opacity: 0.6;
+  opacity: 0.9;
 }
 
 .nav-link {
@@ -62,6 +62,7 @@ h2 {
 
 .hero p {
   font-family: var(--default-font-family);
+  font-size: 20px;
   margin: 0 auto;
   padding: 20px;
 }
@@ -109,10 +110,12 @@ h2 {
   padding: 10px;
 }
 
+.page-break {
+  padding-bottom: 80px;
+}
+
 .project-img {
   border-radius: 60px;
-  display: block;
-  text-align: center;
 }
 
 .project-description {
@@ -129,7 +132,7 @@ h2 {
 }
 
 .project-description p {
-  font-size: 16px;
+  font-size: 20px;
   line-height: 1.5;
 }
 
@@ -158,6 +161,7 @@ h2 {
 
 .contact p {
   font-family: var(--default-font-family);
+  font-size: 20px;
   padding-bottom: 40px;
 }
 
